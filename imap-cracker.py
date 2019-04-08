@@ -17,7 +17,7 @@ def read_file_lines(file_path):
         return fp.readlines()
 
 # Password List
-password_list = read_file_lines('top1000.txt')
+password_list = read_file_lines('top-1000-password.txt')
 
 
 # IMAP Auth
